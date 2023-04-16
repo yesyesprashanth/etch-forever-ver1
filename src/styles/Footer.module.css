@@ -1,0 +1,11 @@
+.userinput{
+    display: flex;
+    width:100vw;
+    justify-content: center;
+}
+
+.userinput input[type="text"]{
+    width:400px;
+    padding:5px;
+    margin-right: 3px;
+}

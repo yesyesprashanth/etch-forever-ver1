@@ -1,0 +1,19 @@
+.header{    
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.connectbutton{
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e1e1e;
+    cursor: pointer;
+}
