@@ -7,6 +7,12 @@
     z-index: 1;
 }
 
+.logo{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;    
+}
+
 .connectbutton{
     padding: 10px;
     border-radius: 20px;

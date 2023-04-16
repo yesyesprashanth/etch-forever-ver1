@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Layout from '@/components/Layout/Layout'
+import Message from '@/components/messages/Message'
 const inter = Inter({ subsets: ['latin'] })
 
 // This project is initiated on 16th april 2023
@@ -20,7 +21,7 @@ export default function Home() {
       </Head>
       <main>
           <Layout>
-            <div>Hello World</div>
+            <Message />
           </Layout>
       </main>
     </>

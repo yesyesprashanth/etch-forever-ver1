@@ -1,0 +1,25 @@
+.messagebody{
+    padding:10px;      
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.message{
+    background: #3c3c3c;
+    margin: 10px 20px;
+    min-height: 60px;
+    color:#FFF;
+    border-radius: 10px;
+    padding:5px 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;    
+}
+
+.metadata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}

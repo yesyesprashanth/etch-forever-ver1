@@ -1,0 +1,8 @@
+.container{
+    position: absolute;    
+    background: #1e1e1e;
+    width: 60%;
+    margin-left: 20%; 
+    min-height: calc(100vh - 56px) !important;
+    z-index: -1;
+}
