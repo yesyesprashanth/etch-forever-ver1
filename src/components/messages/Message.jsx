@@ -38,8 +38,8 @@ export default function Message() {
     <div className={styles.messagebody}>
         {
             dataArray.map((data, index)=>(
-              <div className={styles.message}>
-                   <div className={styles.metadata} key = {index}>
+              <div className={styles.message} key = {index}>
+                   <div className={styles.metadata}>
                         <div>{data.from}</div>
                         <div>{data.timestamp}</div>
                     </div>
